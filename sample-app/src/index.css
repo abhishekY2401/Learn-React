@@ -7,46 +7,4 @@
 .container {
     width: 100%;
     height: auto;
-    font-family: 'Saira', sans-serif;;
-}
-
-.card {
-    width: 25%;
-    height: 12vw;
-    background-color: rgb(236, 233, 233);
-    margin: 5vw;
-    border-radius: 10px;
-    z-index: 10000;
-}
-
-h1 {
-    color: #555555;
-    margin: 1rem;
-}
-
-h2 {
-    color: #444444;
-    margin-left: 25px;
-    padding: 15px;
-}
-
-.actions {
-    padding-left: 12rem;
-    margin-top: -1rem;
-}
-
-.btn {
-    padding: 10px;
-    font-size: 0.8rem;
-    outline: none;
-    font-family: 'Saira';
-    background-color: rgb(168, 58, 72);
-    border: none;
-    color: #fff;
-    border-radius: 10px;
-}
-
-.btn:hover {
-    background-color: rgb(189, 91, 104);
-    cursor: pointer;
 }
