@@ -3,5 +3,10 @@
 A repository meant for learning React
 
 What's there in to Learn React 🤔: 
- - States
+ - JSX
  - Components
+    - Function-based
+    - Class-based
+ - Props
+ - Event Handling
+ - Import & Export Components
