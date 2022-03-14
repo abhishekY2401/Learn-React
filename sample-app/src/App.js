@@ -1,5 +1,5 @@
 import "./index.css";
-import Book from "./components/Book";
+import Book from "./basics/components/Book";
 
 const App = () => {
   const books = [
