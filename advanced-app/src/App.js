@@ -1,6 +1,8 @@
 import "./App.css";
-import ErrorUseState from "./ErrorUseState";
-import UseState from "./UseState";
+import ErrorUseState from "./components/ErrorUseState";
+import UseState from "./components/UseState";
+import UseStateArray from "./components/useStateArray";
+import UseStateObjects from "./components/useStateObjects";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <h1>This is Advanced React Concepts</h1>
       <ErrorUseState />
       <UseState />
+      <UseStateArray />
+      <UseStateObjects />
     </div>
   );
 }

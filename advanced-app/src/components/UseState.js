@@ -4,8 +4,13 @@ const UseState = () => {
   let [title, setTitle] = useState("Basic React");
 
   const AnotherClickHandler = () => {
-    title = "Advanced React";
-    setTitle(title);
+    if (title === "Basic React") {
+      title = "Advanced React";
+      setTitle(title);
+    } else {
+      title = "Basic React";
+      setTitle(title);
+    }
   };
 
   return (
