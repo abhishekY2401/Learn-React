@@ -7,15 +7,21 @@ const UseStateObjects = () => {
     message: "Hey!! Hi, Please teach me DSA",
   });
 
+  const [name, setName] = useState(person.name);
+  const [age, setAge] = useState(person.age);
+  const [message, setMessage] = useState(person.message);
+
   const changeMessage = () => {
-    setPerson({ ...person, message: "Hi!! sorry for that" });
+    setMessage("Hi! sorry for that");
+    setName("Yash");
+    setAge(20);
   };
 
   return (
     <>
-      <h2>{person.name}</h2>
-      <h2>{person.age}</h2>
-      <h2>{person.message}</h2>
+      <h2>{name}</h2>
+      <h2>{age}</h2>
+      <h2>{message}</h2>
       <button onClick={changeMessage}>Change</button>
     </>
   );
