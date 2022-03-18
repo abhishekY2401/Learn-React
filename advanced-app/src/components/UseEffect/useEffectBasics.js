@@ -9,9 +9,9 @@ const UseEffectBasics = () => {
 
     // applying conditions in useEffect.
     if (value > 1) {
-      document.title = `You clicked ${value} times`;
+      document.title = `New Messages(${value})`;
     }
-  });
+  }, [value]);
 
   const increment = () => {
     setValue(value + 1);
